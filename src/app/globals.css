@@ -4,7 +4,7 @@
   --offwhite: #f7f6f2;
   --dark: #111111;
   --accent: #ff5fa2;
-  --background: #ffffff;
+  --background: var(--offwhite);
   --foreground: #171717;
 }
 
@@ -15,12 +15,7 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+
 
 * {
   box-sizing: border-box;
@@ -29,7 +24,7 @@
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-  background: var(--offwhite);
+  background: #f7f6f2;
   color: var(--dark);
   display: flex;
   justify-content: center;
