@@ -9,7 +9,7 @@ export default function Home() {
       <div className="contract">
         <strong className="text-black">Contract Address</strong>
         <br />
-        <p className="text-black/30">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+        <p className="text-black/60">CVvvSrhMkwGYqf7uhhfKGvkZGYR7nPmzWGTCHRPEkvbf</p>
       </div>
 
       <div className="buttons">
